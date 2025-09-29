@@ -5,3 +5,19 @@
     .animate-spin-slow {
       animation: spin-slow 8s linear infinite;
     }
+
+    /* ==== FOOTER PEGADO AL FONDO ==== */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Ocupa todo el espacio disponible */
+}
+
+footer {
+  margin-top: auto; /* Empuja el footer hacia abajo */
+}
